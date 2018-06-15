@@ -1,4 +1,4 @@
-function [final,matrizInterconexion] = convertirAClaves(distancia,matriz,linea,estacion,matriz2)
+function [final,matrizInterconexion] = convertirAClaves(distancia,matriz,linea,estacion,matriz2,vector)
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
     tem=size(matriz);
@@ -15,7 +15,7 @@ function [final,matrizInterconexion] = convertirAClaves(distancia,matriz,linea,e
     for i=1:tamano
         for o=1:tamano
             if distancia(i,1)==matriz(o,1)
-                distancia(i,1)=matriz(o,2);
+                distancia(i,1)=deNombreAclave(matriz(o,1),vector);
                 break;
             end
         end

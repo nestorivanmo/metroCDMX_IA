@@ -11,7 +11,7 @@ function metro = matrizMetro()
 
     linea1=[linea1I,linea1II];
 
-    v2I = {1 2    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  4 5 6 7 8 9 12 13 15 17 18 19 20 21 23 24};
+    v2I = {1 2 4 5 6 7 8 9 12 13 15 17 18 19 20 21 23 24};
     k2I = {'cuatro caminos', 'panteones', 'cuitlahuac', 'popotla', 'colegio militar', 'normal', 'san cosme', 'revolucion', 'allende', 'zocalo', 'san antonio abad', 'viaducto', 'xola', 'villa de cortes', 'nativitas', 'portales', 'general anaya', 'tasqueña'};
     linea2I = [k2I, v2I];
 
