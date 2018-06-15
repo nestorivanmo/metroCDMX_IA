@@ -1,4 +1,18 @@
+v5I = {2,3,5,6,8,9,11,13};
+k5I = {'hangares', 'terminal aerea', 'aragon', 'eduardo molina', 'valle gomez', 'misterios', 'autobuses del norte', 'politecnico'};
+linea5I = containers.Map(v5I, k5I);
 
+v5II = {1,4,7,12};
+k5II = {'pantitlan','oceania', 'cosulado','instituo del petroleo'};
+linea5II = containers.Map(v5II,k5II);
+
+v6I = {2,3,4,5,6,8,10};
+k6I = {'tezozomoc', 'azcapotzalco', 'ferreria/arena ciudad de mexico', 'norte 45', 'vallejo','lindavista','la villa/basilica'};
+linea6I = containers.Map(v6I, k6I);
+
+v6II = {1,7,9,11};
+k6II = {'el rosario','instituto del petroleo', 'deportivo 18 de marzo', 'martin carrera'};
+linea6II = containers.Map(v6II, k6II);
 
 
 v9I = {2,3,5,8,9,10,11};
